@@ -86,8 +86,11 @@ body {
     font-size: 18px;
     font-family: var(--ff-base);
     font-weight: var(--fw-base);
-    background-color: var(--clr-White);
-    padding: 2rem;  
+    color: var(--clr-Black); 
+}
+
+article {
+    padding: 2rem 1rem;
 }
 
 .section1 {
@@ -115,7 +118,7 @@ body {
 }
 
 .section2 {
-    background-color: var(--clr-Yellow-100);
+    background-color: var(--clr-White);
     margin-bottom: var(--margin-bottom);
     padding: 1rem;
     border-radius: var(--radius);
@@ -171,6 +174,27 @@ body {
 .section5 img {
     margin-bottom: 2rem;
 }
+
+.section6 {
+    background-color: var(--clr-White);
+    border-radius: var(--radius);
+    margin-bottom: var(--margin-bottom);
+    padding: 1rem 5rem 1rem 1rem;
+    font-size: 1.2rem;
+}
+
+.section6 span {
+    display: block;
+    font-weight: var(--fw-bold);
+    font-size: 2.5rem;
+}
+
+.section6 img {
+    margin-top: 1rem;
+    width: 85%;
+}
+
+
 @media (min-width: 376px) {
     
 }
