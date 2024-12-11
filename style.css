@@ -194,6 +194,25 @@ article {
     width: 85%;
 }
 
+.section7 {
+    padding: 2rem;
+    background-color: var(--clr-Yellow-100);
+    margin-bottom: var(--margin-bottom);
+    border-radius: var(--radius);
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.section7 span {
+    color: var(--clr-Purple-500);
+    font-style: italic;
+}
+
+.section7 img {
+    width: 65%;
+    margin-top: 1.5rem;
+}
 
 @media (min-width: 376px) {
     
