@@ -1,0 +1,162 @@
+@import url('https://fonts.google.com/specimen/DM+Sans');
+
+:root {
+    --clr-Purple-500: hsl(256, 67%, 59%);
+    --clr-Purple-100: hsl(254, 88%, 90%);
+
+    --clr-Yellow-500: hsl(39, 100%, 71%);
+    --clr-Yellow-100: hsl(31, 66%, 93%);
+
+    --clr-Black: hsl(0, 0%, 7%);
+    --clr-White: hsl(0, 0%, 100%);
+
+    --ff-base: 'DM Sans', sans-serif;
+
+    --fw-bold: 500;
+    --fw-base: 400;
+}
+
+/*
+  CSS RESET
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/***********
+   main Css
+************/
+body {
+    --radius: 0.5rem;
+    --margin-bottom: 1.5rem;
+    font-size: 18px;
+    font-family: var(--ff-base);
+    font-weight: var(--fw-base);
+    background-color: var(--clr-White);
+    padding: 2rem;  
+}
+
+.section1 {
+    background-color: var(--clr-Purple-500);
+    margin-bottom: 1.5rem;
+    padding: 2.5rem;
+    border-radius: var(--radius);
+    color: var(--clr-White);
+    text-align: center;
+}
+
+.section1 h1 {
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+    margin-bottom: var(--margin-bottom);
+}
+
+.section1 span {
+    color: var(--clr-Yellow-500);
+}
+
+.section1 img {
+    margin: 0.5rem auto;
+    max-width: 75%;
+}
+
+.section2 {
+    background-color: var(--clr-Yellow-100);
+    margin-bottom: var(--margin-bottom);
+    padding: 1rem;
+    border-radius: var(--radius);
+}
+
+.section2 p {
+    font-weight: var(--fw-bold);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.section3 {
+    background-color: var(--clr-Yellow-500);
+    padding: 1rem 5rem 0 1rem;
+    border-radius: var(--radius);
+    margin-bottom: var(--margin-bottom);
+}
+
+.section3 p{
+    margin-bottom: 1rem;
+    font-weight: var(--fw-bold);
+    font-size: 1.2rem;
+}
+
+.section4 {
+    background-color: var(--clr-Purple-100);
+    margin-bottom: var(--margin-bottom);
+    border-radius: var(--radius);
+    padding: 1rem;
+    text-align: center;
+}
+
+.section4 h2 {
+    font-size: 1.2rem;
+    font-weight: var(--fw-bold)
+}
+
+.section4 img {
+    margin: 1rem 0;
+}
+@media (min-width: 376px) {
+    
+}
+ 
