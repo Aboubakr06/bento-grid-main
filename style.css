@@ -214,6 +214,20 @@ article {
     margin-top: 1.5rem;
 }
 
+.section8{
+    background-color: var(--clr-Yellow-500);
+    margin-bottom: var(--margin-bottom);
+    border-radius: var(--radius);
+    padding: 2rem 3rem 2rem 2rem;
+    font-weight: var(--fw-bold);
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.section8 img {
+    width: 70%;
+    margin-top: 1.5rem;
+}
 @media (min-width: 376px) {
     
 }
