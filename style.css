@@ -156,6 +156,21 @@ body {
 .section4 img {
     margin: 1rem 0;
 }
+
+.section5 {
+    background-color: var(--clr-Purple-500);
+    border-radius: var(--radius);
+    margin-bottom: var(--margin-bottom);
+    text-align: center;
+    color: var(--clr-White);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    line-height: 2ch;
+}
+
+.section5 img {
+    margin-bottom: 2rem;
+}
 @media (min-width: 376px) {
     
 }

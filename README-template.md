@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://musical-toffee-739d66.netlify.app/)
 
 ## My process
 
@@ -51,9 +51,7 @@ Users should be able to:
 ### What I learned
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+
 ```
 
 ### Continued development
