@@ -228,7 +228,118 @@ article {
     width: 70%;
     margin-top: 1.5rem;
 }
+
 @media (min-width: 376px) {
+    body {
+        --margin-bottom: 0rem;
+    }
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    article {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:  1fr;
+        grid-template-areas: 
+            'a b b c'
+            'a e f c'
+            'd e f c'
+            'd g h h'
+                    ;
+    }
     
+    .section1 {
+        grid-area: b;
+        font-size: 1.5rem;
+    }
+
+    .section1 h1 {
+        font-size: 4rem;
+    }
+
+    .section1 img {
+        width: 45%;
+    }
+
+    .section2 {
+        grid-area: e;
+        padding: 1rem;
+    }
+
+    .section2 p {
+        font-size: 2.5rem;
+        line-height: 2ch;
+    }
+
+    .section3 {
+        grid-area: f;
+        padding: 1rem;
+    }
+
+    .section3 p {
+        font-size: 2.5rem;
+        line-height: 2ch;
+    }
+
+    .section4 {
+        grid-area: c;
+        text-align: start;
+        padding: 2rem;
+    }
+
+    .section4 h2 {
+        font-size: 2.5rem;
+    }
+
+    .section4 p {
+        font-size: 1.5rem;
+    }
+
+    .section5 {
+        grid-area: h;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        text-align: start;
+        gap: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .section5 img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .section6 {
+        grid-area: g;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .section6 span {
+        font-size: 4rem;
+    }
+    .section7 {
+        grid-area: a;
+        font-size: 3rem;
+        line-height: 2ch;
+        padding: 1rem;
+    }
+
+    .section8 {
+        grid-area: d;
+        font-size: 3rem;
+        line-height: 2ch;
+        padding: 1rem;
+    }
+
+    .section8 img {
+        width: 100%;
+    }
 }
  
