@@ -230,7 +230,7 @@ body {
     margin-top: 1.5rem;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 431px) {
     body {
         --margin-bottom: 0rem;
     }
