@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/bento-grid-O07DTWczED)
 - Live Site URL: [Live Site](https://musical-toffee-739d66.netlify.app/)
 
 ## My process
