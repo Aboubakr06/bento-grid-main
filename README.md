@@ -76,7 +76,7 @@ The area i want to focuse on more is CSS Grid.
 
 ### Useful resources
 
-- [W3School](https://www.w3schools.com/css/css_grid.asp) - This helped me understanding and using CSS Grid on my project.
+- [W3School](https://www.w3schools.com/cssref/pr_grid.php) - This helped me understanding and using CSS Grid on my project.
 
 ## Author
 
