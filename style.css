@@ -89,7 +89,7 @@ body {
     color: var(--clr-Black); 
 }
 
-article {
+.container {
     padding: 2rem 1rem;
 }
 
@@ -124,7 +124,7 @@ article {
     border-radius: var(--radius);
 }
 
-.section2 p {
+.section2 h2 {
     font-weight: var(--fw-bold);
     font-size: 1.2rem;
     margin-top: 1rem;
@@ -137,7 +137,7 @@ article {
     margin-bottom: var(--margin-bottom);
 }
 
-.section3 p{
+.section3 h2{
     margin-bottom: 1rem;
     font-weight: var(--fw-bold);
     font-size: 1.2rem;
@@ -152,8 +152,8 @@ article {
 }
 
 .section4 h2 {
-    font-size: 1.2rem;
-    font-weight: var(--fw-bold)
+    font-size: 1.5rem;
+    font-weight: var(--fw-bold);
 }
 
 .section4 img {
@@ -163,11 +163,12 @@ article {
 .section5 {
     background-color: var(--clr-Purple-500);
     border-radius: var(--radius);
+    font-weight: var(--fw-bold);
     margin-bottom: var(--margin-bottom);
     text-align: center;
     color: var(--clr-White);
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2ch;
 }
 
@@ -240,7 +241,7 @@ article {
         justify-content: center;
     }
 
-    article {
+    .container {
         display: grid;
         gap: 1rem;
         grid-template-columns: repeat(4, 1fr);
@@ -271,7 +272,7 @@ article {
         padding: 1rem;
     }
 
-    .section2 p {
+    .section2 h2 {
         font-size: 2.5rem;
         line-height: 2ch;
     }
@@ -281,7 +282,7 @@ article {
         padding: 1rem;
     }
 
-    .section3 p {
+    .section3 h2 {
         font-size: 2.5rem;
         line-height: 2ch;
     }
@@ -307,7 +308,7 @@ article {
         padding: 1rem;
         text-align: start;
         gap: 2rem;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .section5 img {
@@ -318,7 +319,7 @@ article {
     .section6 {
         grid-area: g;
         padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .section6 span {
@@ -326,14 +327,14 @@ article {
     }
     .section7 {
         grid-area: a;
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 2ch;
         padding: 1rem;
     }
 
     .section8 {
         grid-area: d;
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 2ch;
         padding: 1rem;
     }
